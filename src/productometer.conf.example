@@ -1,0 +1,27 @@
+# database params
+database_host = localhost
+database_user = username
+database_password = "mypassword"
+database_name = inotify
+database_port = 3306
+
+# Misc
+computer_name = computername
+
+# Configuration profiles
+
+[work]
+directory = "/path/to/work/files"
+directory = "/other/path/to/work/files"
+recursive
+file_include_pattern = "\.swp$"
+file_include_pattern = "\.mwb$"
+file_include_pattern = "\.docx?$"
+
+[home]
+directory = "/path/to/home/files"
+directory = "/other/path/to/home/files"
+recursive
+file_include_pattern = "\.swp$"
+file_include_pattern = "\.mwb$"
+file_include_pattern = "\.docx?$"
